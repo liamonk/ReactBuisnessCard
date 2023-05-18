@@ -1,0 +1,67 @@
+body{
+    color: #F5F5F5;
+    background-color: #23252C;
+    font-family:'Gill Sans', sans-serif;
+}
+
+.card{
+    margin:auto;
+    border-radius: 25px;
+    background-color: #1A1B21;
+    width: 320px;
+}
+
+.info{
+    text-align: center;
+}
+
+.info--img{
+    width: 319px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.info--name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 21;
+    margin-bottom: 0;
+}
+
+.info--bio{
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.info--address{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.info--buttons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+.info--emailButton{
+    width: 120px;
+    border-radius: 10px;
+}
+
+.info--linkedInButton{
+    width: 120px;
+    border-radius: 10px;
+    background-color: paleturquoise;
+}
+
+
+
+
+
+.about{
+    padding: 20px;
+}
+
+
