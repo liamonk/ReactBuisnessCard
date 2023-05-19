@@ -19,7 +19,7 @@ body{
     width: 319px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 200px;
+    height: 250px;
 }
 
 .info--name{
@@ -49,6 +49,7 @@ body{
 .info--emailButton{
     display: flex;
     width: 120px;
+    height: 40px;
     border-radius: 10px;
     align-items: center;
     justify-content: space-evenly;
@@ -57,6 +58,7 @@ body{
 .info--githubButton{
     display: flex;
     width: 120px;
+    height: 40px;
     border-radius: 10px;
     align-items: center;
     justify-content: space-evenly;
@@ -67,8 +69,13 @@ body{
     font-size: 30px;
 }
 
-.about{
+.about, .interests{
     padding: 20px;
+    margin-bottom: 0;
+}
+
+.interests{
+    margin-top: -40px;
 }
 
 .footer{
@@ -76,6 +83,10 @@ body{
     display: flex;
     justify-content: space-around;
     height: 40px;
-    padding: 10px 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
