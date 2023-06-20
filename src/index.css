@@ -1,12 +1,13 @@
 body{
-    padding: 200px;
+    padding: 100px;
     color: #F5F5F5;
     background-color: #23252C;
     font-family:'Inter','Gill Sans', sans-serif;
+    align-items: center;
 }
 
 .card{
-    margin:auto;
+    margin-top:50px;
     border-radius: 25px;
     background-color: #1A1B21;
     width: 320px;
